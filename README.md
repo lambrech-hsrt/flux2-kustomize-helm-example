@@ -44,6 +44,7 @@ brew install kind
 Cluster erstellen
 ```sh
 kind create cluster --name staging
+kind create cluster --name production
 ```
 
 ## Repository structure
@@ -340,7 +341,7 @@ Bootstrap Flux on production by setting the context and path to your production 
 
 ```sh
 flux bootstrap github \
-    --context=production \
+    --context=kind-production \
     --owner=${GITHUB_USER} \
     --repository=${GITHUB_REPO} \
     --branch=main \
