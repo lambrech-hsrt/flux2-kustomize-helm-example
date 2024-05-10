@@ -36,6 +36,16 @@ curl -s https://fluxcd.io/install.sh | sudo bash
 
 ### Cluster Vorbereiten
 
+Kind installieren:
+```sh
+brew install kind
+```
+
+Cluster erstellen
+```sh
+kind create cluster --name staging
+```
+
 ## Repository structure
 
 The Git repository contains the following top directories:
