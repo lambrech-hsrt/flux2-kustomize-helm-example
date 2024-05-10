@@ -34,6 +34,8 @@ Or install the CLI by downloading precompiled binaries using a Bash script:
 curl -s https://fluxcd.io/install.sh | sudo bash
 ```
 
+### Cluster Vorbereiten
+
 ## Repository structure
 
 The Git repository contains the following top directories:
